@@ -48,6 +48,8 @@ export const global = StyleSheet.create({
         fontSize: 20,
         marginTop: -100,
         marginLeft: 20,
+        paddingBottom: 10,
+        
     },
     imgstories: {
         height:300,
@@ -90,18 +92,69 @@ export const global = StyleSheet.create({
         marginTop: -7,
     },
     trendingarea: {
-        backgroundColor: "#999",
+        backgroundColor: "#090909",
+        flexDirection: "row",
         flex: 1,
+        top: 20,
+    },
+    titletrending: {
+        color: "#FFF",
+        fontSize: 20,
+        marginLeft: 20,
+        FontWeight: "bold",
+    },
+    txtmore: {
+        color: "yellow",
+        position: "absolute",
+        fontSize: 15,
+        marginLeft: 291,
+        paddingTop: 5,
     },
     imgesporte: {
-        backgroundColor: "#ddddd",
-        padding: 10,
+        backgroundColor: "#333",
+        padding: 15,
+        width: "95%",
+        borderRadius: 40,
+        marginLeft: "auto",
+        marginRight: "auto",
+        marginTop: 40,
+        paddingTop: 17,
+        
     },
     imgtrending: {
-        width: 500,
+        width: "100%",
         height: 300,
+        borderRadius: 30,
     },
-
+    boxlike: {
+        backgroundColor: "white",
+        padding: 5,
+        width: 80,
+        flexDirection: "row",
+        position: "absolute",
+        top: 281.8,
+        right: 15.5,
+        borderBottomRightRadius: 30,
+        borderTopLeftRadius: 10,
+    },
+    imglike: {
+        width: 25,
+        height: 25,
+        
+    },
+    txtlike: {
+        marginTop: 5,
+        marginLeft: 2,
+    },
+    boxuser: {
+        flexDirection: "row",
+    },
+    imguser1: {
+        width: 70,
+        height: 70,
+        margin: 5,
+        borderRadius: 100,
+    }
 
 });
 
